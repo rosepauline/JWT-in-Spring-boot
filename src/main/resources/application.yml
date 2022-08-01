@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+jwt:
+  secret: secretkey123
+
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3305/jwt_demo
+    username: root
+    password: root
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
